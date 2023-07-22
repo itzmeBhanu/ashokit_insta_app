@@ -1,6 +1,6 @@
 FROM openjdk:8
 
-ADD target/ashokit-insta-app /usr/app/
+ADD target/ashokit-insta-app.jar /usr/app/
 
 WORKDIR /usr/app/
 
